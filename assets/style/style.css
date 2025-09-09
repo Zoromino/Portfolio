@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 2rem;
+    width: 85%;
+}
+
+.lang-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.lang-switch:hover {
+    background-color: gray;
+}
+
+/* #region Start */
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* #endregion Start */
+
+/* #region About */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+.about-me {
+   padding-left: 1rem;
+   font-weight: bold;
+}
+.about-text {
+    align-self: center;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: -1.5rem;
+}
+
+/* #endregion About */
+
+/* #region Skills */
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin-top: -8rem;
+}
+.my-skills {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.skills-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+.skills-text li {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.skills-text li:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+/* #endregion Skills */
+
+/* #region Education */
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin-top: -8rem;
+}
+.my-education {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.my-schools {
+    display: flex;
+    flex-direction: column;
+}
+.my-schools h4 {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    margin: 0.5rem;
+}
+.my-schools h4:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+
+
+/* #endregion Education */
+
+/* #region Experiece */
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin-top: -8rem;
+}
+.my-experience {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.work {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    margin: 0.5rem;
+}
+.work ul {
+    list-style: none;
+    padding-left: 0;
+}
+.work li::before {
+    content: "➤";
+    color: black;
+    font-weight: bold;
+}
+.work h4 {
+    font-weight: bold;
+}
+
+/* #endregion Experiece */
+
+/* #region Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin-top: -8rem;
+}
+.my-contact {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.contact-list {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    margin: 0.5rem;
+}
+
+
+/* #endregion Contact */
+
+/* #region Projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    padding: 4rem 0;
+    margin-top: -8rem;
+}
+.my-projects h2 {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.my-projects p {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    margin: 0.5rem;
+}
+
+/* #endregion Projects */
+
+/* #region Footer */
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+/* #endregion Footer */
