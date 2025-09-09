@@ -6,6 +6,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     max-width: 800px;
     margin: 2rem auto;
@@ -16,6 +20,7 @@ body {
     width: 85%;
 }
 
+/* #region Language */
 .lang-switch {
     display: flex;
     justify-content: center;
@@ -32,6 +37,32 @@ body {
 .lang-switch:hover {
     background-color: gray;
 }
+/* #endregion Language */
+
+/* #region CV */
+.btn-container {
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+.cv-btn {
+    background-color: rgba(228, 220, 220, 0.79);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+.cv-btn:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+/* #endregion CV */
 
 /* #region Start */
 .start {
@@ -52,6 +83,7 @@ body {
     max-width: 1000px;
     padding: 4rem 0;
     margin: 0 auto;
+    margin-top: -4rem;
 }
 .about-me {
    padding-left: 1rem;
