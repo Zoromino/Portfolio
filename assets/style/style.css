@@ -42,7 +42,8 @@ html {
 /* #region CV */
 .btn-container {
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     gap: 0.5rem;
 }
@@ -135,7 +136,7 @@ html {
     background-color: gray;
     color: white;
     transform: scale(1.05);
-    font-weight: bold;
+    transition: all 0.2s ease;
 }
 /* #endregion Skills */
 
@@ -169,8 +170,6 @@ html {
     transform: scale(1.05);
     font-weight: bold;
 }
-
-
 
 /* #endregion Education */
 
@@ -266,3 +265,11 @@ html {
 }
 
 /* #endregion Footer */
+
+@media (min-width: 500px) {
+    .cv-btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.05rem;
+    }
+    
+}
